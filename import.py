@@ -11,3 +11,4 @@ print(arr)
 from math import *
 print(sqrt(64))
 print(pi)
+print(cube(3))
