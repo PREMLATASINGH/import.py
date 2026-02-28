@@ -10,3 +10,4 @@ arr=np.array([1,2,3,4])
 print(arr)
 from math import *
 print(sqrt(64))
+print(pi)
