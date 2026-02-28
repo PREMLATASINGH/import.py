@@ -12,3 +12,4 @@ from math import *
 print(sqrt(64))
 print(pi)
 print(sin(3))
+print(cos(30))
