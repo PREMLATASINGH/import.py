@@ -21,3 +21,4 @@ print(2*arr1)
 print(arr*7)
 def sub(a,b):
     return a-b
+print(sub(4,2))
