@@ -4,3 +4,5 @@ print(math.pi)
 import random
 print(random.randint(1,100))
 print(random.choice(['banana','apple','cherry','kiwi']))
+import os
+print(os.getcwd())
