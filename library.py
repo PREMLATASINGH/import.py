@@ -19,3 +19,5 @@ yesterday=now-timedelta(days=1)
 print(yesterday)
 import time
 print(time.time())
+time.sleep(2)
+print(time.time())
