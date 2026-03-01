@@ -19,3 +19,5 @@ print(cos(0))
 arr1=np.array([1,2,3])
 print(2*arr1)
 print(arr*7)
+def sub(a,b):
+    return a-b
