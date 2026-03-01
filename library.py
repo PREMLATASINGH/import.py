@@ -12,3 +12,6 @@ print(type(json_str))
 parsed_data=json.loads(json_str)
 print(parsed_data)
 print(type(parsed_data))
+from datetime import datetime,timedelta
+now=datetime.now
+print(now)
