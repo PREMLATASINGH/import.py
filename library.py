@@ -21,5 +21,3 @@ import time
 print(time.time())
 time.sleep(2)
 print(time.time())
-time.wake(2)
-print(time.time())
