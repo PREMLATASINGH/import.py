@@ -14,3 +14,5 @@ print(df.shape)
 print(df.isnull().sum())
 print(df.describe())
 print(df.fillna(0))
+df['total_sales']=df['quantity']*df['price']
+print(df['total_sales'].sum())
