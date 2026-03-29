@@ -17,3 +17,4 @@ print(df.describe())
 print(df.fillna(0))
 df['total_sales']=df['quantity']*df['price']
 print(df['total_sales'].sum())
+print(df.groupby('category')['total_sales'].sum())
