@@ -2,7 +2,8 @@ import numpy as np
 import pandas as pd
 data={
     'product':['laptop','tv','mobile','milk','veg','grains'],
-    'price':[1000,467,675,65,65,54]
+    'price':[1000,467,675,65,65,54],
+    'quantity':[2,5,6,1,6,2]
 
 }
 df=pd.DataFrame(data)
