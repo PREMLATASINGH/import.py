@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
 data={
     'product':['laptop','tv','mobile','milk','veg','grains'],
     'price':[1000,467,675,65,65,54],
@@ -18,3 +19,5 @@ print(df.fillna(0))
 df['total_sales']=df['quantity']*df['price']
 print(df['total_sales'].sum())
 print(df.groupby('category')['total_sales'].sum())
+plt.hist(df)
+plt.show()
